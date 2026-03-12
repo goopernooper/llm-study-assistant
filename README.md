@@ -1,6 +1,19 @@
-# LLM-Powered Study / Research Assistant
+# LLM-Powered Study & Research Assistant
 
-A production-ready monorepo that ingests PDFs and notes, builds a local FAISS index, and provides citation-backed Q&A, summaries, takeaways, and flashcards via a FastAPI backend and a React + Vite frontend.
+![Demo](assets/LLMStudyAssistant-12March2026-ezgif.com-video-to-gif-converter.gif)
+
+Upload PDFs and notes, then get citation-backed answers, summaries, key takeaways,
+and flashcards powered by RAG (Retrieval-Augmented Generation). Built with a
+FastAPI backend, FAISS vector search, and a React + Vite frontend.
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-412991?logo=openai)
+![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
+
+> **Live Demo:** [llm-study-assistant.vercel.app](https://llm-study-assistant.vercel.app)
 
 ## Features
 - Upload PDFs or text notes
